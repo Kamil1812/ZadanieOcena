@@ -9,7 +9,11 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.TextView
 import com.example.zadanieocena.databinding.ActivityMainBinding
+import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +36,11 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+
+      /* findViewById<Button>(R.id.btn1).setOnClickListener() {
+            findViewById<TextView>(R.id.Wyswietl1).text = findViewById<TextInputEditText>(R.id.Wpisz).text
+        }*/
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
